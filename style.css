@@ -1,0 +1,2114 @@
+*{
+    /* background-color: #8eebd7; */
+    /* background-color: #37dcb8; */
+    background-color: #555555;
+    margin: 0;
+    padding: 0;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1440px) and (max-width: 1920px){
+    .background {
+        background-color: #141414;
+        width: 30vw;
+        height: 42vw;
+        border-radius: 1vw;
+        margin: auto;
+        margin-top: 1vw;    
+    }  
+
+    .h1 {
+        color: #E69400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+        font-weight: 700;
+        text-align: center;
+        width: 25vw;
+        height: 4vw;
+        margin-top: 1vw;
+        margin-left: 37vw;
+    }
+
+    .btn-Point {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 35vw 0 0 15.6vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.5s;
+    }
+    .btn-Point:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Point:active {
+        transform: scale(0.7);
+    }
+    .btn-Zero {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 13vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 35vw 0 0 1vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Zero:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Zero:active {
+        transform: scale(0.7);
+    }
+    .btn-Equally {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 35vw 0 0 23vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Equally:hover {
+        background-color: #E69400;
+        color: white;
+    }
+    .btn-Equally:active {
+        transform: scale(0.7);
+    }
+    .btn-One {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 28vw 0 0 1vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-One:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-One:active {
+        transform: scale(0.7);
+    }
+    .btn-Two {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 28vw 0 0 8.4vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Two:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Two:active {
+        transform: scale(0.7);
+    }
+    .btn-Three {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 28vw 0 0 15.6vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Three:active {
+        transform: scale(0.7);
+    }
+    .btn-Three:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Plus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 28vw 0 0 23vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Plus:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Plus:active {
+        transform: scale(0.7);
+    }
+    .btn-Thour {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 21vw 0 0 1vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Thour:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Thour:active {
+        transform: scale(0.7);
+    }
+    .btn-Five {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 21vw 0 0 8.4vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Five:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Five:active {
+        transform: scale(0.7);
+    }
+    .btn-Six {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 21vw 0 0 15.6vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Six:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Six:active {
+        transform: scale(0.7);
+    }
+    .btn-Minus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 21vw 0 0 23vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Minus:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Minus:active {
+        transform: scale(0.7);
+    }
+    .btn-Seven {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 14vw 0 0 1vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Seven:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Seven:active {
+        transform: scale(0.7);
+    }
+    .btn-Eight {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 14vw 0 0 8.4vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Eight:active {
+        transform: scale(0.7);
+    }
+    .btn-Eight:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Nine {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 14vw 0 0 15.6vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Nine:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Nine:active {
+        transform: scale(0.7);
+    }
+    .btn-Multiply {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 14vw 0 0 23vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Multiply:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Multiply:active {
+        transform: scale(0.7);
+    }
+    .btn-Ac {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 13vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 7vw 0 0 1vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.5s;
+    }
+    .btn-Ac:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Ac:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+    }
+    .btn {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 7vw 0 0 15.6vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn:hover {
+        background-color: #BCBCBC;
+    }
+    .btn:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+    }
+    .btn-Share {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 6vw;
+        height: 6vw;
+        border-radius: 3vw;
+        margin: 7vw 0 0 23vw;
+        font-size: 3vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Share:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Share:active {
+        transform: scale(0.7);
+    }
+    .input {
+        position: absolute;
+        margin: 1vw 0 0 1vw;
+        width: 13.5vw;
+        height: 5vw;
+        border-radius: 1vw;
+        font-size: 4vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+
+    .output {
+        position: absolute;
+        margin: 1vw 0 0 15.5vw;
+        width: 13.5vw;
+        height: 5vw;
+        border-radius: 1vw;
+        font-size: 4vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px){
+    .background {
+        background-color: #141414;
+        width: 37vw;
+        height: 56vw;
+        border-radius: 1vw;
+        margin: auto;
+        margin-top: 0.5vw;
+    }
+    
+    .h1 {
+        color: #E69400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vw;
+        font-weight: 700;
+        text-align: center;
+        width: 25vw;
+        height: 4vw;
+        margin-top: 1vw;
+        margin-left: 37vw;
+    }
+
+    .btn-Point {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 47vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Point:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Point:active {
+        transform: scale(0.7);
+    }
+    .btn-Zero {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 17vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 47vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Zero:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Zero:active {
+        transform: scale(0.7);
+    }
+    .btn-Equally {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 47vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Equally:hover {
+        background-color: #E69400;
+        color: white;
+    }
+    .btn-Equally:active {
+        transform: scale(0.7);
+    }
+    .btn-One {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 38vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-One:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-One:active {
+        transform: scale(0.7);
+    }
+    .btn-Two {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 38vw 0 0 10vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Two:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Two:active {
+        transform: scale(0.7);
+    }
+    .btn-Three {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 38vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Three:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Three:active {
+        transform: scale(0.7);
+    }
+    .btn-Plus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 38vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Plus:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Plus:active {
+        transform: scale(0.7);
+    }
+    .btn-Thour {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 29vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Thour:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Thour:active {
+        transform: scale(0.7);
+    }
+    .btn-Five {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 29vw 0 0 10vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Five:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Five:active {
+        transform: scale(0.7);
+    }
+    .btn-Six {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 29vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Six:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Six:active {
+        transform: scale(0.7);
+    }
+    .btn-Minus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 29vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Minus:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Minus:active {
+        transform: scale(0.7);
+    }
+    .btn-Seven {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 20vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Seven:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Seven:active {
+        transform: scale(0.7);
+    }
+    .btn-Eight {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 20vw 0 0 10vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Eight:hover {
+        background-color: #BCBCBC;
+    }   
+    .btn-Eight:active {
+        transform: scale(0.7);
+    }
+    .btn-Nine {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 20vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Nine:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Nine:active {
+        transform: scale(0.7);
+    }
+    .btn-Multiply {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 20vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Multiply:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Multiply:active {
+        transform: scale(0.7);
+    }
+    .btn-Ac {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 17vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 11vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Ac:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Ac:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+    }
+    .btn {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 11vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn:hover {
+        background-color: #BCBCBC;
+    }
+    .btn:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+    }
+    .btn-Share {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 11vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Share:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Share:active {
+        transform: scale(0.7);
+    }
+    .input {
+        position: absolute;
+        margin: 1vw 0 0 1vw;
+        width: 17vw;
+        height: 8vw;
+        border-radius: 2vw;
+        font-size: 5vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+
+    .output {
+        position: absolute;
+        margin: 1vw 0 0 19vw;
+        width: 17vw;
+        height: 8vw;
+        border-radius: 2vw;
+        font-size: 5vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .background {
+        background-color: #141414;
+        width: 37vw;
+        height: 56vw;
+        border-radius: 1.1vw;
+        margin: auto;
+        margin-top: 3vw;
+    } 
+    
+    .h1 {
+        color: #E69400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5vw;
+        font-weight: 700;
+        text-align: center;
+        width: 25vw;
+        height: 4vw;
+        margin-top: 1vw;
+        margin-left: 37vw;
+    }
+    .btn-Point {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 47vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Point:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Point:active {
+        transform: scale(0.7);
+    }
+    .btn-Zero {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 17vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 47vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Zero:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Zero:active {
+        transform: scale(0.7);
+    }
+    .btn-Equally {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 47vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Equally:hover {
+        background-color: #E69400;
+        color: white;
+    }
+    .btn-Equally:active {
+        transform: scale(0.7);
+    }
+    .btn-One {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 38vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-One:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-One:active {
+        transform: scale(0.7);
+    }
+    .btn-Two {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 38vw 0 0 10vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Two:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Two:active {
+        transform: scale(0.7);
+    }
+    .btn-Three {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 38vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Three:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Three:active {
+        transform: scale(0.7);
+    }
+    .btn-Plus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 38vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Plus:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Plus:active {
+        transform: scale(0.7);
+    }
+    .btn-Thour {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 29vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Thour:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Thour:active {
+        transform: scale(0.7);
+    }
+    .btn-Five {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 29vw 0 0 10vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Five:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Five:active {
+        transform: scale(0.7);
+    }
+    .btn-Six {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 29vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Six:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Six:active {
+        transform: scale(0.7);
+    }
+    .btn-Minus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 29vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Minus:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Minus:active {
+        transform: scale(0.7);
+    }
+    .btn-Seven {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 20vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Seven:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Seven:active {
+        transform: scale(0.7);
+    }
+    .btn-Eight {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 20vw 0 0 10vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Eight:hover {
+        background-color: #BCBCBC;
+    }   
+    .btn-Eight:active {
+        transform: scale(0.7);
+    }
+    .btn-Nine {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 20vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Nine:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Nine:active {
+        transform: scale(0.7);
+    }
+    .btn-Multiply {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 20vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Multiply:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Multiply:active {
+        transform: scale(0.7);
+    }
+    .btn-Ac {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 17vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 11vw 0 0 1vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Ac:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Ac:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+    }
+    .btn {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 11vw 0 0 19vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn:hover {
+        background-color: #BCBCBC;
+    }
+    .btn:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+    }
+    .btn-Share {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 8vw;
+        height: 8vw;
+        border-radius: 5vw;
+        margin: 11vw 0 0 28vw;
+        font-size: 4vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Share:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Share:active {
+        transform: scale(0.7);
+    }
+    .input {
+        position: absolute;
+        margin: 1vw 0 0 1vw;
+        width: 17vw;
+        height: 8vw;
+        border-radius: 2vw;
+        font-size: 5vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+
+    .output {
+        position: absolute;
+        margin: 1vw 0 0 19vw;
+        width: 17vw;
+        height: 8vw;
+        border-radius: 2vw;
+        font-size: 5vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .background {
+        background-color: #141414;
+        width: 45vw;
+        height: 67vw;
+        border-radius: 1.1vw;
+        margin: auto;
+        margin-top: 3vw;
+    }  
+
+    .h1 {
+        color: #E69400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5vw;
+        font-weight: 700;
+        text-align: center;
+        width: 25vw;
+        height: 4vw;
+        margin-top: 1vw;
+        margin-left: 37vw;
+    }
+
+    .btn-Point {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 56vw 0 0 23vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Point:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Point:active {
+        transform: scale(0.7);
+    }
+    .btn-Zero {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 21vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 56vw 0 0 1vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Zero:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Zero:active {
+        transform: scale(0.7);
+    }
+    .btn-Equally {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 56vw 0 0 34vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Equally:hover {
+        background-color: #E69400;
+        color: white;
+    }
+    .btn-Equally:active {
+        transform: scale(0.7);
+    }
+    .btn-One {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 45vw 0 0 1vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-One:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-One:active {
+        transform: scale(0.7);
+    }
+    .btn-Two {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 45vw 0 0 12vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Two:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Two:active {
+        transform: scale(0.7);
+    }
+    .btn-Three {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 45vw 0 0 23vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Three:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Three:active {
+        transform: scale(0.7);
+    }
+    .btn-Plus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 45vw 0 0 34vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Plus:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Plus:active {
+        transform: scale(0.7);
+    }
+    .btn-Thour {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 34vw 0 0 1vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Thour:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Thour:active {
+        transform: scale(0.7);
+    }
+    .btn-Five {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 34vw 0 0 12vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Five:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Five:active {
+        transform: scale(0.7);
+    }
+    .btn-Six {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 34vw 0 0 23vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Six:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Six:active {
+        transform: scale(0.7);
+    }
+    .btn-Minus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 34vw 0 0 34vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Minus:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Minus:active {
+        transform: scale(0.7);
+    }
+    .btn-Seven {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 23vw 0 0 1vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Seven:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Seven:active {
+        transform: scale(0.7);
+    }
+    .btn-Eight {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 23vw 0 0 12vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Eight:hover {
+        background-color: #BCBCBC;
+    }   
+    .btn-Eight:active {
+        transform: scale(0.7);
+    }
+    .btn-Nine {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 23vw 0 0 23vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.7s;
+    }
+    .btn-Nine:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Nine:active {
+        transform: scale(0.7);
+    }
+    .btn-Multiply {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 23vw 0 0 34vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Multiply:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Multiply:active {
+        transform: scale(0.7);
+    }
+    .btn-Ac {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 21vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 12vw 0 0 1vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Ac:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Ac:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+    }
+    .btn {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 12vw 0 0 23vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn:hover {
+        background-color: #BCBCBC;
+        transform: rotate(360deg);
+    }
+    .btn:active {
+        transform: scale(0.7);
+    }
+    .btn-Share {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+        margin: 12vw 0 0 34vw;
+        font-size: 5vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.7s;
+    }
+    .btn-Share:hover {
+        background-color: #BCBCBC;
+    }
+    .btn-Share:active {
+        transform: scale(0.7);
+    }
+    .input {
+        position: absolute;
+        margin: 1vw 0 0 1vw;
+        width: 21vw;
+        height: 9.5vw;
+        border-radius: 2vw;
+        font-size: 5vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+
+    .output {
+        position: absolute;
+        margin: 1vw 0 0 23vw;
+        width: 21vw;
+        height: 9.5vw;
+        border-radius: 2vw;
+        font-size: 5vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .background {
+        background-color: #141414;
+        width: 99vw;
+        height: 180vw;
+        border-radius: 5vw;
+        margin: auto;
+        margin-top: 10vw;
+    }  
+
+    .h1 {
+        color:#7442C8;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10vw;
+        font-weight: 700;
+        text-align: center;
+        width: 25vw;
+        height: 4vw;
+        margin-top: 0vw;
+        margin-left: 26vw;
+        color: #E69400;
+    }
+
+    .btn-Point {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 158vw 0 0 52vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.5s;
+    }
+    .btn-Point:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Zero {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 45vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 158vw 0 0 3vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Zero:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Equally {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 158vw 0 0 76vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.5s;
+    }
+    .btn-Equally:active {
+        transform: scale(0.9);
+        background-color: #a76e04;  
+    }
+    .btn-One {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 135vw 0 0 3vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-One:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Two {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 135vw 0 0 28vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Two:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Three {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 135vw 0 0 52vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Three:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Plus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 135vw 0 0 76vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.5s;
+    }
+    .btn-Plus:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Thour {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 112vw 0 0 3vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Thour:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Five {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 112vw 0 0 28vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Five:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Six {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 112vw 0 0 52vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Six:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Minus {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 112vw 0 0 76vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.5s;
+    }
+    .btn-Minus:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Seven {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 89vw 0 0 3vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Seven:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Eight {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 89vw 0 0 28vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Eight:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Nine {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 89vw 0 0 52vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-Nine:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Multiply {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 89vw 0 0 76vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.5s;
+    }
+    .btn-Multiply:active {
+        transform: scale(0.9);
+        background-color: #7c7b7b;
+    }
+    .btn-Ac {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 45vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 66vw 0 0 3vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.9s;
+    }
+    .btn-Ac:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+        background-color: #7c7b7b;
+    }
+    .btn {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 66vw 0 0 52vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.9s;
+    }
+    .btn:active {
+        transform: scale(0.7);
+        transform: rotate(360deg);
+        background-color: #7c7b7b;
+    }
+    .btn-Share {
+        position: absolute;
+        text-decoration: none;
+        border: none;
+        text-align: center;
+        outline: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 10vw;
+        margin: 66vw 0 0 76vw;
+        font-size: 9vw;
+        background-color: #555555;
+        color: #E69400;
+        transition-duration: 0.5s;
+    }
+    .btn-Share:active {
+        transform: scale(0.7);
+        background-color: #7c7b7b;
+    }
+    .input {
+        position: absolute;
+        margin: 5vw 0 0 3vw;
+        width: 93vw;
+        height: 25vw;
+        border-radius: 7vw;
+        font-size: 20vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+
+    .output {
+        position: absolute;
+        margin: 35vw 0 0 3vw;
+        width: 93vw;
+        height: 25vw;
+        border-radius: 7vw;
+        font-size: 20vw;
+        text-align: right;
+        background-color: #555555;
+        color: white;
+    }
+}
